@@ -30,16 +30,15 @@
 
 | Unidade curricular | Projeto | Tecnologias |
 |---|---|---|
-| Fundamentos de Álgebra Linear | _em breve_ | Python, NumPy |
-| Tópicos de Matemática I | _em breve_ | Python |
+| Tópicos de Matemática I | [Estudo de funções e métodos numéricos](https://github.com/gleissontrindade-dotcom/topicos-matematica-1) | Python, NumPy, Matplotlib |
 
 ## 📊 Estatísticas GitHub
 
 <div align="center">
 
 <img src="https://streak-stats.demolab.com/?user=gleissontrindade-dotcom&theme=tokyonight&hide_border=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api?username=gleissontrindade-dotcom&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gleissontrindade-dotcom&layout=compact&theme=tokyonight&hide_border=true" height="160" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=gleissontrindade-dotcom&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gleissontrindade-dotcom&layout=compact&theme=tokyonight&hide_border=true" height="160" />
 
 </div>
 
