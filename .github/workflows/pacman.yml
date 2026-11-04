@@ -1,0 +1,27 @@
+# Coloca este ficheiro em: .github/workflows/pacman.yml (dentro do repositório gleissontrindade-dotcom/gleissontrindade-dotcom)
+# Gera todos os dias a animação do Pac-Man a comer o teu gráfico de contribuições
+name: Generate pacman animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # todos os dias à meia-noite
+  workflow_dispatch:       # permite correr à mão no separador Actions
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
